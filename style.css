@@ -1,0 +1,73 @@
+.container{   
+  background-color: #0B0B3B;
+}
+
+.content{
+left:33%;
+top:26%;
+position: absolute;
+width:380px; 
+height:330px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border:black;
+border-style: solid;
+border-radius: 40px;
+background-color: whitesmoke;
+animation-name: move;
+animation-duration:800ms;
+}
+
+.login{  
+      margin-top: 32px;
+      margin-left: 25px;
+      font-size: 25px;
+      color: #0B0B3B;
+}
+
+.password{
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 25px;
+  color: #0B0B3B;
+}
+
+input{
+  width: 330px;
+  height: 35px;
+  border-color:gray;
+  border-style: solid;
+  border-radius: 80px;
+}
+
+.btn-fancy{
+  margin-top: 12%;
+  margin-left: 30%;
+  border: #0B0B3B;
+  border-style: solid;
+  border-radius: 40px;
+  background-color: #0B0B3B;
+  width: 145px;
+  height: 55px;
+  color:white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+@keyframes move {
+  from{
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+   to{
+     opacity: 1;
+     transform: translateX(0%);
+   }
+}
+
+.form-hide{
+  animation-name: hide;
+  animation-duration: 1s;
+}
+
+
